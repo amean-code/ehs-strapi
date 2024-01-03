@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "team_feedbacks",
+  "info": {
+    "singularName": "team-feedback",
+    "pluralName": "team-feedbacks",
+    "displayName": "Team Feedback",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "channel": {
+      "type": "string"
+    },
+    "feedback": {
+      "type": "string"
+    },
+    "team_id": {
+      "type": "integer"
+    }
+  }
+}
